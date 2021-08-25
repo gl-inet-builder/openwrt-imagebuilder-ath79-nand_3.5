@@ -617,6 +617,16 @@ Target-Profile-Description:
 Build firmware images for GL.iNet GL-USB150
 @@
 
+Target-Profile: DEVICE_glinet_gl-s200
+Target-Profile-Name: GL.iNet GL-S200
+Target-Profile-Packages: kmod-ath10k-ct ath10k-firmware-qca9887-ct
+Target-Profile-hasImageMetadata: 1
+Target-Profile-SupportedDevices: gl-s200
+
+Target-Profile-Description:
+Build firmware images for GL.iNet GL-S200
+@@
+
 Target-Profile: DEVICE_lan-turtle
 Target-Profile-Name: Hak5 LAN Turtle
 Target-Profile-Packages: kmod-usb-core kmod-usb2 kmod-usb-storage -kmod-ath9k -swconfig -uboot-envtools -wpad-basic 
@@ -5936,6 +5946,16 @@ Target-Profile-SupportedDevices: glinet,gl-e750-nor-nand gl-e750 glinet,gl-e750
 
 Target-Profile-Description:
 Build firmware images for GL.iNet GL-E750 (NOR/NAND)
+@@
+
+Target-Profile: DEVICE_glinet_gl-s200
+Target-Profile-Name: GL.iNet GL-S200 (NOR)
+Target-Profile-Packages: kmod-ath10k-ct ath10k-firmware-qca9887-ct
+Target-Profile-hasImageMetadata: 1
+Target-Profile-SupportedDevices: gl-s200
+
+Target-Profile-Description:
+Build firmware images for GL.iNet GL-S200 (NOR)
 @@
 
 Target-Profile: DEVICE_glinet_gl-x750-nor

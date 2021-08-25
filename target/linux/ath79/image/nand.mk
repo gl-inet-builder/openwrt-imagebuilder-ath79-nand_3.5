@@ -114,6 +114,15 @@ define Device/glinet_gl-x750-nor
 endef
 TARGET_DEVICES += glinet_gl-x750-nor
 
+define Device/glinet_gl-s200
+  ATH_SOC := qca9531
+  DEVICE_TITLE := GL.iNet GL-S200
+  DEVICE_PACKAGES := kmod-ath10k ath10k-firmware-qca9887 block-mount PCI_SUPPORT
+  IMAGE_SIZE := 16000k
+  SUPPORTED_DEVICES += gl-s200 glinet,gl-s200
+endef
+TARGET_DEVICES += glinet_gl-s200
+
 define Device/glinet_gl-x750-nor-nand
   ATH_SOC := qca9531
   DEVICE_TITLE := GL.iNet GL-X750 (NOR/NAND)

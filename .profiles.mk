@@ -1,4 +1,4 @@
-PROFILE_NAMES = Default DEVICE_glinet_gl-ar300m-nand DEVICE_glinet_gl-ar150 DEVICE_glinet_gl-ar300m-nor DEVICE_glinet_gl-ar750 DEVICE_glinet_gl-ar750s-nor DEVICE_glinet_gl-ar750s-nor-nand DEVICE_glinet_gl-e750-nor DEVICE_glinet_gl-e750-nor-nand DEVICE_glinet_gl-mifi DEVICE_glinet_gl-usb150 DEVICE_glinet_gl-x1200-nor DEVICE_glinet_gl-x1200-nor-nand DEVICE_glinet_gl-x300b-nor DEVICE_glinet_gl-x300b-nor-nand DEVICE_glinet_gl-x750-nor DEVICE_glinet_gl-x750-nor-nand DEVICE_glinet_gl-xe300-nor DEVICE_glinet_gl-xe300-iot DEVICE_glinet_gl-xe300-nor-nand
+PROFILE_NAMES = Default DEVICE_glinet_gl-ar300m-nand DEVICE_glinet_gl-ar150 DEVICE_glinet_gl-ar300m-nor DEVICE_glinet_gl-ar750 DEVICE_glinet_gl-ar750s-nor DEVICE_glinet_gl-ar750s-nor-nand DEVICE_glinet_gl-e750-nor DEVICE_glinet_gl-e750-nor-nand DEVICE_glinet_gl-mifi DEVICE_glinet_gl-s200 DEVICE_glinet_gl-usb150 DEVICE_glinet_gl-x1200-nor DEVICE_glinet_gl-x1200-nor-nand DEVICE_glinet_gl-x300b-nor DEVICE_glinet_gl-x300b-nor-nand DEVICE_glinet_gl-x750-nor DEVICE_glinet_gl-x750-nor-nand DEVICE_glinet_gl-xe300-nor DEVICE_glinet_gl-xe300-iot DEVICE_glinet_gl-xe300-nor-nand
 Default_NAME:=Default Profile
 Default_HAS_IMAGE_METADATA:=0
 Default_PACKAGES:=kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-usb-ledtrig-usbport iwinfo
@@ -38,6 +38,10 @@ DEVICE_glinet_gl-mifi_NAME:=GL.iNet GL-MIFI
 DEVICE_glinet_gl-mifi_HAS_IMAGE_METADATA:=0
 DEVICE_glinet_gl-mifi_SUPPORTED_DEVICES:=glinet,gl-mifi gl-mifi glinet,gl-mifi
 DEVICE_glinet_gl-mifi_PACKAGES:=
+DEVICE_glinet_gl-s200_NAME:=GL.iNet GL-S200 (NOR)
+DEVICE_glinet_gl-s200_HAS_IMAGE_METADATA:=1
+DEVICE_glinet_gl-s200_SUPPORTED_DEVICES:=gl-s200
+DEVICE_glinet_gl-s200_PACKAGES:=kmod-ath10k-ct ath10k-firmware-qca9887-ct
 DEVICE_glinet_gl-usb150_NAME:=GL.iNet GL-USB150
 DEVICE_glinet_gl-usb150_HAS_IMAGE_METADATA:=0
 DEVICE_glinet_gl-usb150_SUPPORTED_DEVICES:=glinet,gl-usb150 gl-usb150 glinet,gl-usb150
